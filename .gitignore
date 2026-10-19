@@ -1,18 +1,25 @@
-# Allow only portfolio documentation and static exterior images.
+# Track portfolio documentation, feedback forms and static exterior images.
 /*
 !/.gitignore
 !/.gitattributes
 !/README.md
 !/LICENSE.md
 !/NOTICE.md
+!/CONTRIBUTING.md
 !/docs/
-!/images/
+!/.github/
 
 /docs/*
 !/docs/*.md
+!/docs/images/
 
-/images/*
-!/images/*.png
-!/images/*.jpg
-!/images/*.jpeg
-!/images/*.webp
+/docs/images/*
+!/docs/images/*.png
+!/docs/images/*.jpg
+!/docs/images/*.jpeg
+!/docs/images/*.webp
+
+/.github/*
+!/.github/ISSUE_TEMPLATE/
+/.github/ISSUE_TEMPLATE/*
+!/.github/ISSUE_TEMPLATE/*.yml

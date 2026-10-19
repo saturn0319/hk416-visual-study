@@ -1,0 +1,23 @@
+name: 展示与文档反馈
+description: 反馈外观图片、页面显示、署名或文档问题。
+title: "[展示] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 涉及位置
+      description: 填写文档路径或图片名称。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 具体问题
+      description: 说明实际问题、预期效果；如适用，可附截图。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 改进建议或参考依据
+      description: 来源与署名问题请附可核查的链接或资料。
